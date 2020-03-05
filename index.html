@@ -12,23 +12,23 @@
     <header>
       <nav id="navbar-fixed-high" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-          <ul class="nav nav-tabs">
+          <ul class="nav navbar-nav navbar-left">
             <li role="presentation" class="active">
               <button class="btn btn-default btn-xs" type="button">
                 UPCOMING WEBINAR
               </button>
             </li>
             <li role="presentation">
-              <p>JAMStack with a Headless CMS: Wordpress, Ghost, and Strapi ❯
+              <p class="text-navbar-alto">JAMStack with a Headless CMS: Wordpress, Ghost, and Strapi ❯
               </p>
             </li>
-              <p class="navbar-text navbar-right"> Docs </p>
-              <p class="navbar-text navbar-right"> Get Support </p>
-              <p class="navbar-text navbar-right"> Sales </p>
-              <p class="navbar-text navbar-right"> Sign in </p>
-
-          </ul>
-
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            <li><span class="text-navbar-alto">Docs</span></li>
+            <li><span class="text-navbar-alto">Get Support</span></li>
+            <li><span class="text-navbar-alto">Sales</span></li>
+            <li><span class="text-navbar-alto">Sign in</span></li>
+            </ul>
         </div>
       </nav>
 
@@ -55,7 +55,7 @@
               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
               <li><a href="#">Pricing <span class="sr-only">(current)</span></a></li>
               </li>
-              <li class="active"><button type="submit" class="btn btn-default">Sign Up</button></li>
+              <li class="active"><button type="submit" id="signin-button" class="btn btn-default navbar-btn">Sign Up</button></li>
             </ul>
 
           </div>
@@ -67,15 +67,15 @@
     <main>
       <div id="main-page"class="container-fluid" style="background-image: url(img/bg-home-1-d54581d7.jpg);">
         <div class="row">
-          <div class="col-md-6">
+          <div id="blocco-testo"class="col-md-6 col-md-offset-1">
             <h1 id="blocco-testo-main">Welcome to the developer cloud</h1>
             <p id="testo-p-main">We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.
             </p>
           </div>
-          <div id="box-destro"class="col-md-4">
+          <div id="box-destro"class="col-md-4 col-md-offset-1">
             <form>
               <div class="form-group">
-                <h2>Deploy in seconds</h2>
+                <h2 id="text-form-group">Deploy in seconds</h2>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="Full Name">
               </div>
               <div class="form-group">
@@ -90,7 +90,7 @@
               <div class="col-sm-4">
                 <hr>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4 navbar-btn">
                 or sign up with
               </div>
               <div class="col-sm-4">
@@ -99,32 +99,30 @@
             </div>
             <div class="row">
               <div class="col-sm-6">
-                <button type="button" class="btn btn-default btn-lg active btn-block">Google</button>
+                <button type="button" class="btn btn-default btn-lg active btn-block">
+                  <img class="img-size" src="img/ico_google.png" alt=""> Google</button>
               </div>
               <div class="col-sm-6">
-                <button type="button" class="btn btn-default btn-lg active btn-block">GitHub</button>
+                <button type="button" class="btn btn-default btn-lg active btn-block"> <img class="img-size" src="img/ico_github.png" alt=""> GitHub</button>
               </div>
             </div>
-            <p>By signing up you agree to the <a href="#">Terms of Service</a> </p>
+            <p class="navbar-btn">By signing up you agree to the <a href="#">Terms of Service</a> </p>
           </form>
           </div>
         </div>
       </div>
 
 
-      <section>
-        <div class="container">
-          <h2>
-      Innovative businesses trust DigitalOcean
-    </h2>
-
+      <section id="box-client">
+        <div class="container-fluid">
+          <h2 id="text-client">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h2>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li> <img src="img/docker.png" alt=""> </li>
+            <li> <img src="img/gitlab-166e2067.png" alt=""> </li>
+            <li> <img src="img/slack.png" alt=""> </li>
+            <li> <img src="img/hashicorp.png" alt=""> </li>
+            <li> <img src="img/wework-be6eab32.png" alt=""> </li>
+            <li> <img src="img/splunk.png" alt=""> </li>
           </ul>
 
           <a href="#" class="Arrowlink">      See business solutions
