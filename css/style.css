@@ -1,7 +1,14 @@
 *{
-  border:1px solid grey ;
+   ;
 }
 
+#navbar-fixed-high{
+  top: 15px;
+}
+
+#navbar-wlogo{
+  top: 50px;
+}
 .navbar-brand{
   width: 172px;
   height: 29px;
