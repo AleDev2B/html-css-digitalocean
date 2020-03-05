@@ -22,54 +22,45 @@
               <p>JAMStack with a Headless CMS: Wordpress, Ghost, and Strapi ❯
               </p>
             </li>
-            <li role="presentation"> <span>Docs</span> </li>
-            <li role="presentation"> <span>Get Support</span> </li>
-            <li role="presentation"> <span>Sales</span> </li>
-            <li role="presentation"> <span>Sign In</span> </li>
+              <p class="navbar-text navbar-right"> Docs </p>
+              <p class="navbar-text navbar-right"> Get Support </p>
+              <p class="navbar-text navbar-right"> Sales </p>
+              <p class="navbar-text navbar-right"> Sign in </p>
+
           </ul>
 
-          <!-- navbar alta inizio parte destra -->
-
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-
-    <!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+        </div>
       </nav>
 
-<hr>
+      <nav id="navbar-wlogo" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <img alt="Brand" src="img/logoDigitalOcean.svg">
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-left:200px">
+            <ul class="nav navbar-nav">
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a></li>
+              <li><a href="#">Marketplace <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Customers <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Partners</a></li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
+              <li><a href="#">Pricing <span class="sr-only">(current)</span></a></li>
+              </li>
+              <li class="active"><button type="submit" class="btn btn-default">Sign Up</button></li>
+            </ul>
 
-<nav id="navbar-wlogo" class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">
-        <img alt="Brand" src="img/logoDigitalOcean.svg">
-      </a>
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a></li>
-        <li class="active"><a href="#">Marketplace <span class="sr-only">(current)</span></a></li>
-        <li class="active"><a href="#">Customers <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Partners</a></li>
-        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
-        <li class="active"><a href="#">Pricing <span class="sr-only">(current)</span></a></li>
-        </li>
-        <li class="active"><button type="submit" class="btn btn-default">Sign Up</button></li>
-      </ul>
-
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+          </div>
+        </div>
+        </nav>
 
     </header>
 
@@ -77,15 +68,14 @@
       <div id="main-page"class="container-fluid" style="background-image: url(img/bg-home-1-d54581d7.jpg);">
         <div class="row">
           <div class="col-md-6">
-            <h1>Welcome to the developer cloud</h1>
-            <p>
-          We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.
-
-        </p>
+            <h1 id="blocco-testo-main">Welcome to the developer cloud</h1>
+            <p id="testo-p-main">We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.
+            </p>
           </div>
-          <div class="col-md-5">
+          <div id="box-destro"class="col-md-4">
             <form>
               <div class="form-group">
+                <h2>Deploy in seconds</h2>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="Full Name">
               </div>
               <div class="form-group">
@@ -115,7 +105,7 @@
                 <button type="button" class="btn btn-default btn-lg active btn-block">GitHub</button>
               </div>
             </div>
-
+            <p>By signing up you agree to the <a href="#">Terms of Service</a> </p>
           </form>
           </div>
         </div>
