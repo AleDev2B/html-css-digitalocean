@@ -1,11 +1,11 @@
 *{
-  font-weight: 400;
-  font-smooth: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   color: rgba(3,27,78,.7);
   border-radius: 5px;
   list-style-type: none;
-  border: 1px solid grey;
+
 }
 
 #navbar-fixed-high{
@@ -58,6 +58,8 @@
   margin-top: 220px;
   color: white;
   font-size: 62px;
+  text-align: left;
+  font-weight: 400;
 }
 
 #testo-p-main{
@@ -65,12 +67,15 @@
   color: #CEDBFF;
   font-size: 24px;
   font-weight: 300;
+  text-align:left;
+
 }
 
 #box-destro{
   background-color: white;
   text-align: center;
   margin-top: 100px;
+  margin-bottom: 80px;
   color:rgba(3,27,78,.1);
   padding: 32px;
 }
@@ -78,8 +83,15 @@
 #text-form-group{
   font-size: 30px;
   margin-bottom: 32px;
+  font-weight: 400;
 }
-
+#box-dx-form{
+    margin-top: 15px;
+}
+.btn-group-lg>.btn, .btn-lg {
+  font-size: 16px;
+  font-weight: 400;
+}
 .form-control{
 padding: 0 16px;
 font-size: 16px;
@@ -142,10 +154,22 @@ p.navbar-btn{
 }
 #deploy{
   padding: 20px 0 64px;
+  color: #031b4e;
 }
 
+#h2-text{
+  color: #031b4e;
+}
+
+#p-text-deploy{
+  font-size:20px;
+  font-weight:400;
+  line-height:30px;
+  color: #031b4e;
+}
 .list-group-item{
   text-align: left;
+  color: #031b4e;
 }
 .container,.container-fluid{
   text-align: center;
@@ -208,4 +232,76 @@ p.navbar-btn{
 .thumbnail-a-text{
   color: #0069ff;
   font-size:16px;
+}
+
+#box-service{
+  padding: 120px 0;
+  background-color:rgb(3, 27, 78);
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg);
+}
+
+#service-world{
+  color: white;
+}
+
+#text-big-service-box{
+  font-size:36px;
+  line-height:45px;
+  font-weight:400;
+}
+
+td,th{
+  color: white;
+  text-align: left;
+}
+
+[class*=codice-]{
+  font-size:13px;
+  font-weight:400;
+  line-height:19.5px;
+}
+.codice-citta{
+  opacity:0.6;
+}
+.codice-speed{
+  color:rgb(0, 215, 210);
+}
+
+#love-section{
+  padding: 120px 0;
+  background-color: #F3F5F9;
+}
+
+#get-started{
+  text-align: center;
+  background-color: rgb(2, 72, 255);
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+  padding: 64px 0;
+  height: 245px;
+}
+
+#text-big-getstrated{
+  color: white;
+  font-size:30px;
+  font-weight: 400;
+  line-height:45px;
+}
+
+footer{
+  background-color: #010e28;
+  color: hsla(0,0%,100%,.5);
+  font-size: 14px;
+  padding-bottom: 96px;
+  padding-top: 96px;
+}
+
+li{
+  font-size:14px;
+  font-weight:400;
+  line-height:21px;
+  color: white;
+}
+
+#footer-list{
+  text-align: left;
 }
