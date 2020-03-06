@@ -5,7 +5,7 @@
   color: rgba(3,27,78,.7);
   border-radius: 5px;
   list-style-type: none;
-  border: 1px solid grey
+
 }
 
 #navbar-fixed-high{
@@ -146,11 +146,27 @@ p.navbar-btn{
   background-color: #F3F5F9;
 }
 
-#carousel-example-generic{
-  padding: 0 16px;
+#text-big-design{
+  font-size:36px;
+  color:rgb(3, 27, 78);
+  letter-spacing:-0.9px;
+  line-height:45px;
+  font-weight: 400;
+}
 
+#parag-design{
+  font-size:20px;
+  line-height:30px;
+}
+.row{
+  margin-top: 50px;
 }
 
 .photo-carousel{
+  padding: 150px;
+}
 
+#text-basso-design{
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
