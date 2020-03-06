@@ -4,6 +4,8 @@
   text-rendering: optimizeLegibility;
   color: rgba(3,27,78,.7);
   border-radius: 5px;
+  list-style-type: none;
+  border: 1px solid grey
 }
 
 #navbar-fixed-high{
@@ -36,7 +38,7 @@
 }
 
 #signin-button{
-  margin-left: 550px;
+  margin-left: 500px;
   border: 1px solid #0069ff;
   color:rgb(0, 105, 255);
 }
@@ -110,10 +112,45 @@ p.navbar-btn{
   text-align: center;
 }
 
+.media-object{
+  align-items: center;
+  height: 39px;
+  width: 143px;
+  margin: 0 15px;
+}
+
+#wework-photo{
+  height: 78px;
+}
+
+#gitlab-photo{
+  height: 78px;
+}
+
+
 #text-client{
   font-size: 14px;
   line-height: 1.25;
   margin-bottom: 16px;
   font-weight: 300;
   letter-spacing:0.7px;
+}
+#deploy{
+  padding: 20px 0 64px;
+}
+.container,.container-fluid{
+  text-align: center;
+}
+
+#design{
+  background-color: #F3F5F9;
+}
+
+#carousel-example-generic{
+  padding: 0 16px;
+
+}
+
+.photo-carousel{
+
 }
