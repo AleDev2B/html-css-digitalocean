@@ -1,11 +1,11 @@
 *{
   font-weight: 400;
-  -webkit-font-smoothing: antialiased;
+  font-smooth: auto;
   text-rendering: optimizeLegibility;
   color: rgba(3,27,78,.7);
   border-radius: 5px;
   list-style-type: none;
-
+  border: 1px solid grey;
 }
 
 #navbar-fixed-high{
@@ -40,7 +40,7 @@
 #signin-button{
   margin-left: 500px;
   border: 1px solid #0069ff;
-  color:rgb(0, 105, 255);
+  color:rgb(19, 59, 255);
 }
 
 #main-page{
@@ -70,7 +70,7 @@
 #box-destro{
   background-color: white;
   text-align: center;
-  margin-top: 185px;
+  margin-top: 100px;
   color:rgba(3,27,78,.1);
   padding: 32px;
 }
@@ -115,18 +115,23 @@ p.navbar-btn{
 .media-object{
   align-items: center;
   height: 39px;
-  width: 143px;
-  margin: 0 15px;
+  margin: 0 30px;
 }
 
 #wework-photo{
-  height: 78px;
+  height: 39px;
+  margin: 0 30px;
 }
 
 #gitlab-photo{
-  height: 78px;
+  height: 45px;
+  margin: 0 30px;
 }
 
+#clients{
+  padding-top: 40px;
+  color:rgb(19, 59, 255);
+}
 
 #text-client{
   font-size: 14px;
@@ -143,7 +148,12 @@ p.navbar-btn{
 }
 
 #design{
+  padding: 120px 0;
   background-color: #F3F5F9;
+}
+
+#box-thumbnail{
+  padding: 120px 0;
 }
 
 #text-big-design{
@@ -152,6 +162,10 @@ p.navbar-btn{
   letter-spacing:-0.9px;
   line-height:45px;
   font-weight: 400;
+}
+
+.caption{
+  text-align: left;
 }
 
 #parag-design{
@@ -169,4 +183,22 @@ p.navbar-btn{
 #text-basso-design{
   margin-top: 35px;
   margin-bottom: 35px;
+}
+#img-align{
+  text-align: left;
+}
+
+.photo-thumbnail{
+  width:43px;
+}
+
+.thumbnail-h-text{
+  color: #031b4e;
+  font-size: 18px;
+  line-height:27px;
+}
+
+.thumbnail-a-text{
+  color: #0069ff;
+  font-size:16px;
 }
