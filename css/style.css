@@ -143,6 +143,10 @@ p.navbar-btn{
 #deploy{
   padding: 20px 0 64px;
 }
+
+.list-group-item{
+  text-align: left;
+}
 .container,.container-fluid{
   text-align: center;
 }
@@ -188,6 +192,9 @@ p.navbar-btn{
   text-align: left;
 }
 
+#img-deploy{
+  text-align: left;
+}
 .photo-thumbnail{
   width:43px;
 }
