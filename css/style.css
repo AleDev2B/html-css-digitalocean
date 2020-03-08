@@ -188,11 +188,13 @@ p.navbar-btn{
   line-height:30px;
   color: #031b4e;
 }
-.list-group-item{
+.list-group-item {
   font-size: 16px;
   color: #031b4e;
+  opacity: 0.7;
   text-align: left;
   border: none;
+  line-height:30px;
 }
 .container,.container-fluid{
   text-align: center;
@@ -315,11 +317,16 @@ td,th{
 }
 
 #get-started{
+  margin: 0 auto;
   text-align: center;
   background-color: rgb(2, 72, 255);
   background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
-  padding: 64px 0;
-  height: 245px;
+  padding: 50px 0;
+
+}
+
+#button-spec{
+  margin-top: 25px;
 }
 
 #text-big-getstrated{
