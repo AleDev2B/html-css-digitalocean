@@ -6,7 +6,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- font awesome -->
-    <script src="https://use.fontawesome.com/aba854a051.js"></script>
+    <script src="https://kit.fontawesome.com/d0025431f9.js" crossorigin="anonymous"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -24,7 +24,7 @@
               </button>
             </li>
             <li>
-              <p class="text-navbar-alto"> <a href="#">JAMStack with a Headless CMS: Wordpress, Ghost, and Strapi <span class="glyphicon glyphicon-chevron-right"></span></a>
+              <p class="text-navbar-alto"> <a href="#">JAMStack with a Headless CMS: Wordpress, Ghost, and Strapi <span class="glyphicon glyphicon-chevron-right" style="font-size:12px;"></span></a>
               </p>
             </li>
             </ul>
@@ -62,15 +62,14 @@
               </li>
               <li class="active"><button type="submit" id="signup-button" class="btn btn-default navbar-btn">Sign Up</button></li>
             </ul>
-
           </div>
         </div>
-        </nav>
+      </nav>
 
     </header>
 
     <main>
-      <div id="main-page"class="container-fluid" style="background-image: url(img/bg-home-1-d54581d7.jpg);">
+      <div id="main-page"class="container-fluid">
         <div class="row">
           <div id="blocco-testo"class="col-md-6 col-md-offset-1">
             <h1 id="blocco-testo-main">Welcome to the developer cloud</h1>
@@ -134,7 +133,7 @@
           </div>
         </div>
       </div>
-      <p id="clients"><a href="#" class="Arrowlink">See business solutions <span class="glyphicon glyphicon-chevron-right"></span></a></p>
+      <p id="clients"><a href="#" class="Arrowlink">See business solutions <span class="glyphicon glyphicon-chevron-right" style="font-size:12px;"></span></a></p>
     </section>
 
     <section id="deploy">
@@ -191,10 +190,10 @@
 
         <div class="container">
           <div class="row">
-            <div class="col-md-7 col-md-offset-2">
+            <div class="col-md-8 col-md-offset-2">
               <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
-                <ol class="carousel-indicators" data-spy="affix" data-offset-bottom="10">
+                <ol class="carousel-indicators" data-offset-bottom="10">
                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="2"></li>
@@ -233,7 +232,7 @@
 
               </div>
             </div>
-            <div id="text-basso-design"class="col-md-7 col-md-offset-2">
+            <div id="text-basso-design"class="col-md-8 col-md-offset-2">
               <p>Choose the machine type that’s right for your app – and  spin up in 55 seconds or less.</p>
             </div>
           </div>
@@ -419,7 +418,7 @@
       <footer>
         <div id="box-list-footer"class="container">
           <div class="row">
-              <div class="col-xs-2">
+              <div class="col-md-2 col-xs-4 col-xs-offset-1">
                 <ul>
                   <li class="global-footer">Company</li>
                     <li><a href="#">About</a></li>
@@ -434,7 +433,7 @@
                     <li><a href="#">Legal & Security</a></li>
                 </ul>
               </div>
-              <div class="col-xs-2">
+              <div class="col-md-2 col-xs-4">
                 <ul>
                   <li class="global-footer">Products</li>
                   <li><a href="#">Droplets</a></li>
@@ -450,7 +449,7 @@
                   <li><a href="#">Release Notes</a></li>
                 </ul>
               </div>
-              <div class="col-xs-2">
+              <div class="col-md-2 col-xs-4">
                 <ul>
                   <li class="global-footer">Community</li>
                   <li><a href="#">Tutorial</a></li>
@@ -465,7 +464,7 @@
                   <li><a href="#">Open Source</a></li>
               </ul>
               </div>
-              <div class="col-xs-2">
+              <div class="col-md-2 col-xs-6">
                 <ul>
                   <li class="global-footer">Solutions</li>
                   <li><a href="#">Web & Mobile Apps</a></li>
@@ -475,7 +474,7 @@
                   <li> <a href="#"> Business Solutions</a> </li>
                 </ul>
               </div>
-              <div class="col-xs-2">
+              <div class="col-md-2 col-xs-6">
                 <ul>
                   <li class="global-footer">Contact</li>
                   <li><a href="#">Get support</a></li>
@@ -487,13 +486,20 @@
           </div>
           <div id="text-footer-basso"class="container-fluid">
             <hr>
-            <ul class="list-inline">
+            <ul class="nav navbar-nav navbar-left list-inline">
               <li><img id="logofooter"src="img/logoDigitalOceanFooter.svg" alt="Logo footer"></li>
               <li><p class="copyright">© 2020 DigitalOcean, LLC. All rights reserved.</p></li>
             </ul>
+            <ul class="nav navbar-nav navbar-right list-inline">
+                <li> <i class="fab fa-twitter fa-lg"></i></li>
+                <li> <i class="fab fa-facebook-square fa-lg"></i></li>
+                <li> <i class="fab fa-instagram fa-lg"></i></li>
+                <li> <i class="fab fa-youtube fa-lg"></i></li>
+                <li> <i class="fab fa-linkedin fa-lg"></i></li>
+                <li> <i class="fab fa-dev fa-lg"></i> </li>
+            </ul>
           </div>
       </footer>
-
     </main>
   </body>
 </html>
