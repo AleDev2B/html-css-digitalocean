@@ -231,6 +231,10 @@ p.navbar-btn{
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
   right: -100px;
 }
+.carousel-indicators li {
+  border-color:red;
+}
+
 
 .caption{
   text-align: left;
